@@ -1704,7 +1704,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],\
       ["cypress", [\
         ["npm:12.17.4", {\
-          "packageLocation": "./.yarn/unplugged/cypress-npm-12.17.4-8b5af8205b/node_modules/cypress/",\
+          "packageLocation": "./.yarn/cache/cypress-npm-12.17.4-8b5af8205b-c9c79f5493.zip/node_modules/cypress/",\
           "packageDependencies": [\
             ["cypress", "npm:12.17.4"],\
             ["@cypress/request", "npm:2.88.12"],\
@@ -2119,7 +2119,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],\
       ["esbuild", [\
         ["npm:0.18.20", {\
-          "packageLocation": "./.yarn/unplugged/esbuild-npm-0.18.20-004a76d281/node_modules/esbuild/",\
+          "packageLocation": "./.yarn/cache/esbuild-npm-0.18.20-004a76d281-5d253614e5.zip/node_modules/esbuild/",\
           "packageDependencies": [\
             ["esbuild", "npm:0.18.20"],\
             ["@esbuild/android-arm", "npm:0.18.20"],\
@@ -5624,14 +5624,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],\
       ["vue-demi", [\
         ["npm:0.14.5", {\
-          "packageLocation": "./.yarn/unplugged/vue-demi-virtual-deaed47d57/node_modules/vue-demi/",\
+          "packageLocation": "./.yarn/cache/vue-demi-npm-0.14.5-6e9e31189b-ff44b9372b.zip/node_modules/vue-demi/",\
           "packageDependencies": [\
             ["vue-demi", "npm:0.14.5"]\
           ],\
           "linkType": "SOFT"\
         }],\
         ["virtual:a0b00a452c0981ed763ef8cb59de67932c15b4c8201cc8b1304abcd5cde018ab3e675eccc8376337b48d9fd5eac90554ce9ccd2e58bc18d59577a9d29040bf8b#npm:0.14.5", {\
-          "packageLocation": "./.yarn/unplugged/vue-demi-virtual-deaed47d57/node_modules/vue-demi/",\
+          "packageLocation": "./.yarn/__virtual__/vue-demi-virtual-deaed47d57/0/cache/vue-demi-npm-0.14.5-6e9e31189b-ff44b9372b.zip/node_modules/vue-demi/",\
           "packageDependencies": [\
             ["vue-demi", "virtual:a0b00a452c0981ed763ef8cb59de67932c15b4c8201cc8b1304abcd5cde018ab3e675eccc8376337b48d9fd5eac90554ce9ccd2e58bc18d59577a9d29040bf8b#npm:0.14.5"],\
             ["@types/vue", null],\
