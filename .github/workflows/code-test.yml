@@ -28,22 +28,21 @@ jobs:
       # - name: Install dependencies
       #   run: npm ci
       - name: Install dependencies
-        # run: yarn install --frozen-lockfile
-        run: yarn install
+        run: yarn install --frozen-lockfile
+        # run: yarn install
 
       # https://github.com/marketplace/actions/changed-files
       # 변경된 파일만 추출 하는 uses
-      # - name: Get Cahange Files
-      #   id: changed_files
-      #   uses: tj-actions/changed-files@v37
-      #   with:
-      #     files: |
-      #       **.spec.ts
+      - name: Get Cahange Files
+        id: changed_files
+        uses: tj-actions/changed-files@v37
+        with:
+          files: |
+            **.spec.ts
 
-      # - name: Run tests on changed files
-      # run: |
-      #   echo "Running tests for: {{$steps.changed_files.outputs.all_changed_files }}"
-      #   yarn test:verbose ${{steps.changed_files.outputs.all_changed_files }}
-      - name: yarn test
-        run: yarn test
+      - name: Run tests on changed files
+        run: |
+          echo "Running tests for: {{$steps.changed_files.outputs.all_changed_files }}"
+          yarn test:verbose ${{steps.changed_files.outputs.all_changed_files }}
+
 # git diff --name-only --diff-filter=M dev | grep '\.spec.ts$' | tr '\n' ' '
